@@ -1,0 +1,7 @@
+.home {
+    height: 80vh;
+}
+.homeBtn {
+    display: flex;
+    flex-flow: column wrap;
+}
