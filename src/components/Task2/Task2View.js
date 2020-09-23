@@ -47,8 +47,11 @@ class Task2 extends Component {
         const MKAD = 108; 
         // Местоположение мотоциклиста (км)
         let km = this.state.V * this.state.T;
+
+        
         // Если мотоциклист едет вперед
         if (km > 0) {
+            km -= 1;
             // km - 1, т.к. счет идет от 0 до 108, а не от 1 до 109
             while (km - 1 > MKAD) {
                 // Убираем круг
@@ -64,6 +67,8 @@ class Task2 extends Component {
                 km += MKAD
             }
         }
+
+      
 
         
         this.setState({alertType: 'success'});
