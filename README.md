@@ -5,7 +5,7 @@
 git clone https://github.com/ksko-git/app-dev-course-tasks
 ```
 ```
-cd rnGallery
+cd app-dev-course-tasks
 ```
 ```
 npm install
